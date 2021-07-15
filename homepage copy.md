@@ -66,11 +66,10 @@ button:focus, area:focus, select:focus{
 .button4:hover{text-decoration: underline;}
 .button5:hover{text-decoration: underline;}
 .button6:hover{text-decoration: underline;}
-.button7:hover{text-decoration: underline;}
 
 .button7 {background:none;
-border:none; font-size:18px;position:relative; left:-30px; top:250px;
- Forced
+border:none; font-size:18px;position:relative; left:-640px; top:335px;
+ 
 }
 
 
@@ -135,9 +134,10 @@ input[type="text"]:focus {
 
 .footnote{
   height: 70px;
-  width:400%;
-  position:relative; left:-200px; top:300px;
-  background-color: #f0f0f0;}
+  width: 400%;
+  background-color:  #f0f0f0;
+position:relative; left:-200px; top:320px;
+}
 
 </style>
 <div>
@@ -149,29 +149,22 @@ input[type="text"]:focus {
 
 </label>
 <br>
-
 </body>
 <input class="bar" type="text"  required >
     </div>
-
-
-
 <button type="submit" class=button1> <b> Google Search </b> </button>
 <button type="button" class=button2> <b> I'm Feeling lucky </b> </button>
 <button type="button" class=button3> About </button>
 <button type="button" class=button4 > Store </button>
 <button type="button" class=button5 > Gmail </button>
 <button type="button" class=button6 > Images </button>
+<button type="button" class=button7 > Advertsing </button>  
 
-<div class="footnote"> </div>
-
-
-<button type="button" class=button7> Advertsing </button>  
 
 
 
 </form>
-
-
+<div class="footnote">
+</div>
 
 </main>
